@@ -8,6 +8,7 @@ function App() {
         <div className="top">
           <h2 className="name">Beyonce</h2>
           <img
+            className="circle-img"
             src="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
             alt="avatar_img"
           />
