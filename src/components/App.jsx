@@ -1,18 +1,18 @@
 import React from "react";
-import Card from "./Card";
 
-function App() {
+function Card(pooo) {
   return (
-    <div>
-      <h1 className="heading">My Contacts</h1>
-      <Card
-        name="Beyonce"
-        img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
-        tell="+123 456 789"
-        mail="b@beyonce.com"
-      />
+    <div className="card">
+      <div className="top">
+        <h2 className="name">{pooo.name}</h2>
+        <img className="circle-img" src={pooo.img} alt="avatar_img" />
+      </div>
+      <div className="bottom">
+        <p className="info">{pooo.tell}</p>
+        <p className="info">{pooo.mail}</p>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default Card;
