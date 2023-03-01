@@ -14,8 +14,8 @@ function App() {
           />
         </div>
         <div className="bottom">
-          <p>+123 456 789</p>
-          <p>b@beyonce.com</p>
+          <p className="info">+123 456 789</p>
+          <p className="info">b@beyonce.com</p>
         </div>
       </div>
     </div>
